@@ -46,6 +46,9 @@ ins Repo-Root kopieren und die übrigen Ordner löschen.
   niedrig aufgelöst (240–980 px) vorliegen. Vor dem Livegang durch **echte,
   hochauflösende Praxisfotos** ersetzen (Hero-URLs in der jeweiligen `styles.css`
   bzw. `index.html`, Porträts in `index.html`).
+  - Ausnahme: Der Hero von **Entwurf 3** nutzt bereits ein **echtes Praxisfoto**
+    (`entwurf-3/assets/praxis.png`, Empfang). Die Hero-Stockbilder zeigen bewusst
+    **klinische/medizinische** Motive (Untersuchung, Praxisräume) – keine Beauty-Optik.
   - Die echten Low-Res-Dateien (`assets/hero*.jpg`, `assets/portrait-venten.jpg`,
     `entwurf-3/assets/g1–g4.jpg`) liegen weiterhin im Repo und können jederzeit wieder
     eingesetzt werden (z. B. sobald HD-Aufnahmen vorliegen).
