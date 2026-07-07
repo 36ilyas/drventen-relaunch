@@ -46,8 +46,8 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;text-wrap:bal
 /* Hero — warm, zentriert, mit Badge und weichem Foto-Hintergrund */
 .hero{position:relative;overflow:hidden;text-align:center;
   background-image:
-    linear-gradient(rgba(247,245,240,.80),rgba(247,245,240,.90)),
-    url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=2000&q=80');
+    linear-gradient(rgba(247,245,240,.74),rgba(247,245,240,.88)),
+    url('https://images.unsplash.com/photo-1631248055158-edec7a3c072b?auto=format&fit=crop&w=2000&q=80');
   background-size:cover;background-position:center}
 .hero::before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(56,182,188,.20),transparent 66%);top:-300px;left:50%;transform:translateX(-50%);pointer-events:none}
 .hero-inner{position:relative;max-width:780px;margin:0 auto;padding-top:104px;padding-bottom:96px}
