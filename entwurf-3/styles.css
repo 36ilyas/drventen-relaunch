@@ -184,13 +184,20 @@ section{padding:92px 0}
   .header-cta .btn-call{display:none}
 }
 @media (max-width:640px){
-  .main-nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--creme);border-bottom:1px solid var(--linie);padding:12px 22px 20px}
-  .main-nav.is-open{display:block}
-  .main-nav ul{flex-direction:column;gap:2px}
+  .header-inner{height:auto;min-height:64px;padding:10px 0}
+  .brand strong{font-size:1rem;line-height:1.15}
+  .brand span{font-size:.6rem;letter-spacing:.1em;margin-top:2px}
   .nav-toggle{display:block}
+  .main-nav{display:block;position:absolute;top:100%;left:0;right:0;background:var(--creme);border-bottom:1px solid var(--linie);padding:0 22px;overflow:hidden;max-height:0;opacity:0;transition:max-height .4s ease,opacity .3s ease,padding .4s ease}
+  .main-nav.is-open{max-height:420px;opacity:1;padding:10px 22px 18px}
+  .main-nav ul{flex-direction:column;gap:2px}
   section{padding:60px 0}
-  .hero-inner{padding-top:72px;padding-bottom:64px}
+  .hero-inner{padding-top:56px;padding-bottom:56px}
+  .hero h1{font-size:clamp(1.9rem,8vw,2.6rem)}
   .values,.gallery-grid,.service-grid{grid-template-columns:1fr}
+}
+@media (max-width:400px){
+  .brand span{display:none}
 }
 
 /* Echte Fotos in Platzhaltern */
