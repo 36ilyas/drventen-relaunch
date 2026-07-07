@@ -10,7 +10,7 @@ direkt lauffähig auf GitHub Pages.
 
 | Ordner | Richtung |
 |---|---|
-| `entwurf-1/` | **Kräftig & modern:** dunkler Vollflächen-Foto-Hero als Petrol-**Duotone** (Crossfade-Slideshow + sanfter Ken-Burns-Zoom), große Display-Serif **Fraunces** + **Manrope**, Kennzahlen-Leiste im Hero, kontrastreiche Petrol-Sektionen mit hellen Karten. |
+| `entwurf-1/` | **Kräftig & modern:** heller Vollflächen-Foto-Hero (Crossfade-Slideshow + sanfter Ken-Burns-Zoom) mit seitlichem Petrol-Verlauf – Foto klar sichtbar, Text lesbar; große Display-Serif **Fraunces** + **Manrope**, Kennzahlen-Leiste im Hero, kontrastreiche Petrol-Sektionen mit hellen Karten. |
 | `entwurf-2/` | **Editorial Minimal:** klar und selbstbewusst statt leer – große Grotesk-Headlines (**Space Grotesk** + **Manrope**), aussagekräftiges Hero-Bild rechts, feine Rasterlinien, interaktive Leistungs-Kacheln (Hover füllt sich Petrol), Kennzahlen im Hero. |
 | `entwurf-3/` | **Warm & einladend:** warmer Creme-Fond (#F7F5F0) mit Türkis-Akzenten, zentrierter Hero mit Badge, „Einblicke"-Galerie der Praxis, hervorgehobene Leistungskarte, Notdienst-Karte (116 117), „Route planen"-Link, mehrspaltiger Footer. |
 | `entwurf-4/` | **Premium & ruhig (neu):** Agentur-Stil nach Vorbild der Beispiel-Entwürfe – Vollbild-Foto-Hero mit Scrim und beim Scrollen einfärbender Fixed-Nav, edle Serifen **Cormorant Garamond** + **Jost**, Petrol/Creme/Seafoam-Palette (Türkis-Familie der Praxis), Leistungen als zweispaltige Serifen-Liste, dunkle Statement- und Sprechzeiten-Bänder. |
@@ -40,21 +40,17 @@ ins Repo-Root kopieren und die übrigen Ordner löschen.
 
 ## Vom Betreiber noch zu ergänzen / zu prüfen
 
-- **HD-Bilder / Platzhalter:** Die lokalen Fotos (`assets/`) stammen aus der alten
-  Website drventen.de und sind **niedrig aufgelöst** (Web-Bilder von 2013,
-  ca. 240–980 px breit). Für große Flächen (Vollbild-Heros) wurden zusätzlich
-  **Stock-Platzhalter von Unsplash** eingesetzt, damit die Entwürfe wirken – diese
-  sollten vor dem Livegang durch **echte, hochauflösende Praxisfotos** ersetzt werden
-  (gern die HD-Originale von drventen.de).
-  - `entwurf-1/assets/`: `hero1.jpg` (Behandlungsraum), `hero2.jpg` (Fassade),
-    `hero3.jpg` (Hautkrebs-Screening) – als Petrol-Duotone im Hero; `portrait-venten.jpg`
-  - `entwurf-2/index.html`: Hero-Bild = Unsplash-**Platzhalter** (Haut-Nahaufnahme);
-    `assets/portrait-venten.jpg` (echt). Das alte `hero-foto.jpg` (Behandlungsraum,
-    „ergab keinen Sinn") wird nicht mehr verwendet.
-  - `entwurf-3/assets/`: `g1.jpg`–`g4.jpg` (Galerie), `portrait-venten.jpg`
-  - `entwurf-4/`: Hero + zwei Kolleg:innen-Porträts = Unsplash-**Platzhalter**;
-    `assets/portrait-venten.jpg` (echtes Foto von Dr. Venten). Namen der Kolleg:innen
-    (Dr. Lachman, Dr. Herrmann-Wendt) stammen vom Praxisschild – **bitte prüfen**.
+- **Bilder = Stock-Platzhalter (Unsplash):** Alle Hero-Hintergründe und alle
+  Personen-Porträts (auch „Dr. Venten") sind aktuell **helle, hochauflösende
+  Stock-Platzhalter von Unsplash** – bewusst, weil die alten drventen.de-Fotos nur
+  niedrig aufgelöst (240–980 px) vorliegen. Vor dem Livegang durch **echte,
+  hochauflösende Praxisfotos** ersetzen (Hero-URLs in der jeweiligen `styles.css`
+  bzw. `index.html`, Porträts in `index.html`).
+  - Die echten Low-Res-Dateien (`assets/hero*.jpg`, `assets/portrait-venten.jpg`,
+    `entwurf-3/assets/g1–g4.jpg`) liegen weiterhin im Repo und können jederzeit wieder
+    eingesetzt werden (z. B. sobald HD-Aufnahmen vorliegen).
+  - Team-Namen in Entwurf 4 (Dr. Lachman, Dr. Herrmann-Wendt) stammen vom Praxisschild
+    – **bitte prüfen**; die zugehörigen Porträts sind Platzhalter.
 - **Impressum:** alle `[…]`-Platzhalter – zuständige Ärztekammer, KV,
   Aufsichtsbehörde, Berufshaftpflichtversicherung (Name, Sitz, Geltungsraum),
   Link zur Berufsordnung.

@@ -4,3 +4,7 @@ Thumbs.db
 
 # Interne Referenz-Entwürfe einer anderen Praxis – nicht veröffentlichen
 beispiel entwürfe/
+
+# Playwright / lokale Screenshots
+.playwright-mcp/
+*.jpeg

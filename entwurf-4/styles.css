@@ -32,7 +32,7 @@ section { scroll-margin-top: 84px; }
   background-color: var(--pine);
   background-image:
     linear-gradient(180deg, rgba(10,37,40,0.30) 0%, rgba(10,37,40,0.42) 55%, rgba(10,37,40,0.62) 100%),
-    url('https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=2000&q=80');
+    url('https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=2000&q=80');
   background-size: cover; background-position: center;
   display: flex; flex-direction: column;
 }

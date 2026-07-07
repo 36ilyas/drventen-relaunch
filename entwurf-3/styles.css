@@ -43,9 +43,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;text-wrap:bal
 .nav-toggle .bars::before,.nav-toggle .bars::after{content:"";position:absolute;left:0;width:20px;height:2px;background:currentColor}
 .nav-toggle .bars::before{top:-6px}.nav-toggle .bars::after{top:6px}
 
-/* Hero — warm, zentriert, mit Badge */
-.hero{position:relative;overflow:hidden;text-align:center}
-.hero::before{content:"";position:absolute;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(56,182,188,.16),transparent 65%);top:-260px;left:50%;transform:translateX(-50%);pointer-events:none}
+/* Hero — warm, zentriert, mit Badge und weichem Foto-Hintergrund */
+.hero{position:relative;overflow:hidden;text-align:center;
+  background-image:
+    linear-gradient(rgba(247,245,240,.80),rgba(247,245,240,.90)),
+    url('https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=2000&q=80');
+  background-size:cover;background-position:center}
+.hero::before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(56,182,188,.20),transparent 66%);top:-300px;left:50%;transform:translateX(-50%);pointer-events:none}
 .hero-inner{position:relative;max-width:780px;margin:0 auto;padding-top:104px;padding-bottom:96px}
 .hero-badge{display:inline-flex;align-items:center;gap:8px;background:var(--weiss);border:1px solid var(--linie);border-radius:999px;padding:8px 18px;font-size:.82rem;color:var(--ink-soft);margin-bottom:28px;box-shadow:0 2px 10px rgba(35,42,42,.05)}
 .hero-badge .dot{width:8px;height:8px;border-radius:50%;background:var(--tuerkis)}
