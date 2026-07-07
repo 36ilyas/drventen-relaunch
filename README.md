@@ -35,12 +35,16 @@ ins Repo-Root kopieren und die übrigen Ordner löschen.
 
 ## Vom Betreiber noch zu ergänzen / zu prüfen
 
-- **HD-Bilder:** Die drei Hero-Bilder in `entwurf-1/assets/` (`hero1.jpg`–`hero3.jpg`)
-  sind aktuell generierte Platzhalter in Originalauflösung 240×115 px.
-  Hochauflösende Ersatzbilder einfach **unter gleichem Dateinamen** ablegen – sie
-  werden 1:1 an gleicher Stelle verwendet.
-- **Portraitfoto** von Dr. Venten (Platzhalter in der Team-Sektion aller Entwürfe).
-- **Praxisraum-Fotos** für die „Einblicke"-Galerie in Entwurf 4 (4 Platzhalter-Kacheln) und den großen Hero-Bild-Platzhalter in Entwurf 3.
+- **HD-Bilder:** Alle eingesetzten Fotos (Hero-Slideshow, Team-Portrait, Hero-Foto,
+  „Einblicke"-Galerie) stammen aus der alten Website drventen.de und sind daher
+  **niedrig aufgelöst** (Web-Bilder von 2013, ca. 240–980 px breit). Für den echten
+  Livegang sollten sie durch hochauflösende Aufnahmen ersetzt werden – einfach
+  **unter gleichem Dateinamen** im jeweiligen `assets/`-Ordner ablegen, dann werden
+  sie 1:1 an gleicher Stelle verwendet.
+  - `entwurf-1/assets/`: `hero1.jpg` (Behandlungsraum), `hero2.jpg` (Fassade),
+    `hero3.jpg` (Hautkrebs-Screening), `portrait-venten.jpg`
+  - `entwurf-3/assets/`: `hero-foto.jpg` (Behandlungsraum), `portrait-venten.jpg`
+  - `entwurf-4/assets/`: `g1.jpg`–`g4.jpg` (Galerie), `portrait-venten.jpg`
 - **Impressum:** alle `[…]`-Platzhalter – zuständige Ärztekammer, KV,
   Aufsichtsbehörde, Berufshaftpflichtversicherung (Name, Sitz, Geltungsraum),
   Link zur Berufsordnung.

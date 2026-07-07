@@ -168,3 +168,7 @@ section{padding:84px 0}
   section{padding:60px 0}
   .values,.service-grid{grid-template-columns:1fr}
 }
+
+/* Echte Fotos in Platzhaltern */
+.portrait{overflow:hidden;padding:0}
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
