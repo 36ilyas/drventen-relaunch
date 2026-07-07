@@ -193,14 +193,17 @@ section{padding:92px 0}
   .main-nav.is-open{max-height:420px;opacity:1;padding:10px 18px 18px}
   .main-nav ul{flex-direction:column;gap:2px}
   section{padding:60px 0}
-  /* Hero: Praxis-Foto deutlich sichtbarer, weniger weisser Filter */
-  .hero{background-image:
-    linear-gradient(rgba(247,245,240,.30),rgba(247,245,240,.55)),
-    url('assets/praxis.png')}
-  .hero-inner{padding-top:40px;padding-bottom:44px}
+  /* Hero: hochaufloesendes Interieur mobil (statt low-res praxis.png), Vollbild */
+  .hero{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;justify-content:center;
+    background-image:
+      linear-gradient(rgba(247,245,240,.35),rgba(247,245,240,.55)),
+      url('https://images.unsplash.com/photo-1631248055158-edec7a3c072b?auto=format&fit=crop&w=1200&q=80');
+    background-position:center;background-size:cover}
+  .hero::before{width:520px;height:520px;top:-200px}
+  .hero-inner{padding-top:40px;padding-bottom:40px}
   .hero-badge{background:rgba(255,255,255,.92);backdrop-filter:blur(4px)}
   .hero h1{font-size:clamp(1.9rem,9vw,2.6rem)}
-  .hero .claim{background:rgba(247,245,240,.65);backdrop-filter:blur(2px);padding:10px 14px;border-radius:12px;max-width:none}
+  .hero .claim{background:rgba(247,245,240,.72);backdrop-filter:blur(3px);padding:12px 16px;border-radius:14px;max-width:none}
   .values,.gallery-grid,.service-grid{grid-template-columns:1fr}
 }
 @media (max-width:400px){
