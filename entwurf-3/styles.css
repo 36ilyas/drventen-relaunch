@@ -184,16 +184,23 @@ section{padding:92px 0}
   .header-cta .btn-call{display:none}
 }
 @media (max-width:640px){
-  .header-inner{height:auto;min-height:64px;padding:10px 0}
-  .brand strong{font-size:1rem;line-height:1.15}
+  .container{padding:0 18px}
+  .header-inner{height:auto;min-height:60px;padding-top:10px;padding-bottom:10px;gap:12px}
+  .brand strong{font-size:1rem;line-height:1.15;white-space:nowrap}
   .brand span{font-size:.6rem;letter-spacing:.1em;margin-top:2px}
-  .nav-toggle{display:block}
-  .main-nav{display:block;position:absolute;top:100%;left:0;right:0;background:var(--creme);border-bottom:1px solid var(--linie);padding:0 22px;overflow:hidden;max-height:0;opacity:0;transition:max-height .4s ease,opacity .3s ease,padding .4s ease}
-  .main-nav.is-open{max-height:420px;opacity:1;padding:10px 22px 18px}
+  .nav-toggle{display:block;flex:none}
+  .main-nav{display:block;position:absolute;top:100%;left:0;right:0;background:var(--creme);border-bottom:1px solid var(--linie);padding:0 18px;overflow:hidden;max-height:0;opacity:0;transition:max-height .4s ease,opacity .3s ease,padding .4s ease}
+  .main-nav.is-open{max-height:420px;opacity:1;padding:10px 18px 18px}
   .main-nav ul{flex-direction:column;gap:2px}
   section{padding:60px 0}
-  .hero-inner{padding-top:56px;padding-bottom:56px}
-  .hero h1{font-size:clamp(1.9rem,8vw,2.6rem)}
+  /* Hero: Praxis-Foto deutlich sichtbarer, weniger weisser Filter */
+  .hero{background-image:
+    linear-gradient(rgba(247,245,240,.30),rgba(247,245,240,.55)),
+    url('assets/praxis.png')}
+  .hero-inner{padding-top:40px;padding-bottom:44px}
+  .hero-badge{background:rgba(255,255,255,.92);backdrop-filter:blur(4px)}
+  .hero h1{font-size:clamp(1.9rem,9vw,2.6rem)}
+  .hero .claim{background:rgba(247,245,240,.65);backdrop-filter:blur(2px);padding:10px 14px;border-radius:12px;max-width:none}
   .values,.gallery-grid,.service-grid{grid-template-columns:1fr}
 }
 @media (max-width:400px){
