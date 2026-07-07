@@ -172,3 +172,12 @@ section{padding:84px 0}
 /* Echte Fotos in Platzhaltern */
 .portrait{overflow:hidden;padding:0}
 .portrait img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* Hero: Slideshow als Vollflächen-Hintergrund */
+.hero{min-height:82vh;display:flex;align-items:center}
+.hero .container{width:100%}
+.hero-bg img{filter:blur(3px) saturate(1.07);transform:scale(1.07)}
+.hero-overlay{background:linear-gradient(110deg,rgba(18,63,66,.90) 0%,rgba(24,86,90,.78) 45%,rgba(56,182,188,.42) 100%)}
+.hero-inner{display:block;padding-top:84px;padding-bottom:76px}
+.hero-content{max-width:660px}
+.hero-dots{justify-content:flex-start;margin-top:32px}

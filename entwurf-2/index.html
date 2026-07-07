@@ -31,28 +31,20 @@
 
 <main id="main">
 
-  <!-- Hero mit Bild-Slideshow -->
+  <!-- Hero -->
   <section class="hero" id="top" aria-label="Willkommen" data-screen-label="Hero">
-    <div class="hero-bg" aria-hidden="true">
-      <img src="assets/hero1.jpg" alt="">
-      <img src="assets/hero2.jpg" alt="">
-      <img src="assets/hero3.jpg" alt="">
-    </div>
-    <div class="hero-overlay" aria-hidden="true"></div>
     <div class="container hero-inner">
-      <div class="hero-content">
-        <p class="hero-eyebrow">Hautarztpraxis in Mönchengladbach</p>
-        <h1>Dermatologie am Berliner Platz</h1>
-        <p class="claim">„Sich rundum wohl in Ihrer Haut fühlen“</p>
+      <div>
+        <span class="label">Hautarztpraxis · Mönchengladbach</span>
+        <h1>Sich rundum wohl in Ihrer Haut fühlen.</h1>
+        <p class="claim">Dermatologie am Berliner Platz – Dr. med. Irene Venten und Kollegen. Sorgfältige Hautmedizin, klar und persönlich.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="tel:+49216112647">Termin anfragen</a>
           <a class="btn btn-ghost" href="#leistungen">Leistungen</a>
         </div>
-        <div class="hero-dots" role="group" aria-label="Hintergrundbild auswählen">
-          <button type="button" aria-label="Bild 1: Behandlungsraum" aria-current="true"></button>
-          <button type="button" aria-label="Bild 2: Praxis am Berliner Platz" aria-current="false"></button>
-          <button type="button" aria-label="Bild 3: Hautkrebs-Screening" aria-current="false"></button>
-        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/hero-foto.jpg" alt="Behandlungsraum der Praxis mit türkisfarbener Untersuchungsliege">
       </div>
     </div>
   </section>
@@ -61,23 +53,22 @@
   <section class="about" id="praxis" data-screen-label="Über die Praxis">
     <div class="container">
       <div class="section-head reveal">
-        <span class="kicker">Willkommen</span>
-        <h2>Ihre Haut in guten Händen</h2>
-        <p>Seit vielen Jahren betreuen wir unsere Patientinnen und Patienten am Berliner Platz in Mönchengladbach – mit moderner Diagnostik, viel Erfahrung und Zeit für Ihre Anliegen. Von der klassischen Dermatologie bis zur ästhetischen Medizin finden Sie bei uns das gesamte Spektrum der Hautheilkunde unter einem Dach.</p>
+        <span class="label">Willkommen</span>
+        <div>
+          <h2>Ihre Haut in guten Händen</h2>
+          <p>Seit vielen Jahren betreuen wir unsere Patientinnen und Patienten am Berliner Platz in Mönchengladbach – mit moderner Diagnostik, viel Erfahrung und Zeit für Ihre Anliegen.</p>
+        </div>
       </div>
       <div class="values">
         <article class="value-card reveal">
-          <div class="value-mark" aria-hidden="true">S</div>
           <h3>Praxis mit Stil</h3>
           <p>Eine ruhige, freundliche Atmosphäre, in der Sie sich vom ersten Moment an gut aufgehoben fühlen.</p>
         </article>
         <article class="value-card reveal">
-          <div class="value-mark" aria-hidden="true">V</div>
           <h3>Vertrauen durch Erfahrung</h3>
           <p>Langjährige fachärztliche Expertise, sorgfältige Diagnostik und Therapien auf aktuellem medizinischem Stand.</p>
         </article>
         <article class="value-card reveal">
-          <div class="value-mark" aria-hidden="true">G</div>
           <h3>Bleiben Sie gesund</h3>
           <p>Vorsorge liegt uns am Herzen – von der Hautkrebsvorsorge bis zur individuellen Beratung für gesunde Haut.</p>
         </article>
@@ -89,19 +80,21 @@
   <section class="services" id="leistungen" data-screen-label="Leistungen">
     <div class="container">
       <div class="section-head reveal">
-        <span class="kicker">Leistungen</span>
-        <h2>Unsere Fachrichtungen</h2>
-        <p>Acht Schwerpunkte – ein Ziel: die Gesundheit und das Wohlbefinden Ihrer Haut.</p>
+        <span class="label">Leistungen</span>
+        <div>
+          <h2>Unsere Fachrichtungen</h2>
+          <p>Acht Schwerpunkte – ein Ziel: die Gesundheit und das Wohlbefinden Ihrer Haut.</p>
+        </div>
       </div>
-      <div class="service-grid">
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">De</div><h3>Dermatologie</h3><p>Diagnose und Behandlung aller Erkrankungen der Haut, Haare und Nägel.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">Ve</div><h3>Venerologie</h3><p>Diskrete Diagnostik und Therapie sexuell übertragbarer Erkrankungen.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">Al</div><h3>Allergologie</h3><p>Allergietests, Beratung und Hyposensibilisierung bei Allergien.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">Ph</div><h3>Phlebologie</h3><p>Untersuchung und Behandlung von Venenleiden und Krampfadern.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">Na</div><h3>Naturheilverfahren</h3><p>Sanfte, naturheilkundliche Therapien als Ergänzung zur Schulmedizin.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">La</div><h3>Lasermedizin</h3><p>Moderne Lasertherapie bei Gefäßveränderungen, Pigmentflecken u.&nbsp;v.&nbsp;m.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">Op</div><h3>Ambulante Operationen</h3><p>Schonende operative Eingriffe direkt in der Praxis.</p></article>
-        <article class="service-card reveal"><div class="mono" aria-hidden="true">Äs</div><h3>Ästhetische Medizin</h3><p>Individuelle Behandlungen für ein gepflegtes, frisches Hautbild.</p></article>
+      <div class="service-grid reveal">
+        <article class="service-cell"><span class="idx">01</span><h3>Dermatologie</h3><p>Diagnose und Behandlung aller Erkrankungen der Haut, Haare und Nägel.</p></article>
+        <article class="service-cell"><span class="idx">02</span><h3>Venerologie</h3><p>Diskrete Diagnostik und Therapie sexuell übertragbarer Erkrankungen.</p></article>
+        <article class="service-cell"><span class="idx">03</span><h3>Allergologie</h3><p>Allergietests, Beratung und Hyposensibilisierung bei Allergien.</p></article>
+        <article class="service-cell"><span class="idx">04</span><h3>Phlebologie</h3><p>Untersuchung und Behandlung von Venenleiden und Krampfadern.</p></article>
+        <article class="service-cell"><span class="idx">05</span><h3>Naturheilverfahren</h3><p>Sanfte, naturheilkundliche Therapien als Ergänzung zur Schulmedizin.</p></article>
+        <article class="service-cell"><span class="idx">06</span><h3>Lasermedizin</h3><p>Moderne Lasertherapie bei Gefäßveränderungen, Pigmentflecken u.&nbsp;v.&nbsp;m.</p></article>
+        <article class="service-cell"><span class="idx">07</span><h3>Ambulante Operationen</h3><p>Schonende operative Eingriffe direkt in der Praxis.</p></article>
+        <article class="service-cell"><span class="idx">08</span><h3>Ästhetische Medizin</h3><p>Individuelle Behandlungen für ein gepflegtes, frisches Hautbild.</p></article>
       </div>
     </div>
   </section>
@@ -110,7 +103,7 @@
   <section class="team" id="team" data-screen-label="Team">
     <div class="container">
       <div class="section-head reveal">
-        <span class="kicker">Team</span>
+        <span class="label">Team</span>
         <h2>Dr. med. Irene Venten</h2>
       </div>
       <div class="team-grid">
@@ -121,7 +114,7 @@
           <h3>Dr. med. Irene Venten</h3>
           <p class="role">Fachärztin für Dermatologie und Venerologie</p>
           <p>Dr. med. Irene Venten und ihr Team begleiten Sie mit fachlicher Sorgfalt und persönlicher Zuwendung – von der ersten Untersuchung bis zur abgeschlossenen Behandlung.</p>
-          <p>Gemeinsam mit ihren Kolleginnen und Kollegen verbindet sie klassische Dermatologie mit modernen Verfahren der Laser- und ästhetischen Medizin. Nehmen Sie sich Zeit für Ihre Haut – wir nehmen uns Zeit für Sie.</p>
+          <p>Gemeinsam mit ihren Kolleginnen und Kollegen verbindet sie klassische Dermatologie mit modernen Verfahren der Laser- und ästhetischen Medizin.</p>
         </div>
       </div>
     </div>
@@ -131,7 +124,7 @@
   <section class="hours" id="sprechzeiten" data-screen-label="Sprechzeiten">
     <div class="container">
       <div class="section-head reveal">
-        <span class="kicker">Sprechzeiten</span>
+        <span class="label">Sprechzeiten</span>
         <h2>Wann Sie uns erreichen</h2>
       </div>
       <div class="hours-grid">
@@ -156,14 +149,14 @@
   <section class="contact" id="kontakt" data-screen-label="Kontakt">
     <div class="container">
       <div class="section-head reveal">
-        <span class="kicker">Kontakt &amp; Anfahrt</span>
+        <span class="label">Kontakt &amp; Anfahrt</span>
         <h2>So finden Sie uns</h2>
       </div>
       <div class="contact-grid">
         <ul class="contact-list reveal">
-          <li><span class="dot" aria-hidden="true"></span><div><strong>Adresse</strong>Berliner Platz 9<br>41061 Mönchengladbach</div></li>
-          <li><span class="dot" aria-hidden="true"></span><div><strong>Telefon</strong><a href="tel:+49216112647">02161 12647</a></div></li>
-          <li><span class="dot" aria-hidden="true"></span><div><strong>E-Mail</strong><a href="mailto:praxis@drventen.de">praxis@drventen.de</a></div></li>
+          <li><strong>Adresse</strong><span class="plain">Berliner Platz 9, 41061 Mönchengladbach</span></li>
+          <li><strong>Telefon</strong><a href="tel:+49216112647">02161 12647</a></li>
+          <li><strong>E-Mail</strong><a href="mailto:praxis@drventen.de">praxis@drventen.de</a></li>
         </ul>
         <div class="map-shell reveal">
           <div class="map-consent">
